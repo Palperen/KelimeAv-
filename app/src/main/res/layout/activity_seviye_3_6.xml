@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/seviye3"
+    tools:context=".seviye_3.Seviye_3_6_Activity">
+
+    <Chronometer
+        android:id="@+id/kronometre"
+        android:layout_width="58dp"
+        android:layout_height="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/seviye_1_text"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="332dp"
+        android:background="@color/seviye3Button"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="45dp"
+        android:background="@color/seviye3Button"
+        android:text="B"
+        app:layout_constraintStart_toEndOf="@+id/karistir_1_1"
+        app:layout_constraintTop_toBottomOf="@+id/seviye_1_text" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/seviye3Button"
+        android:text="D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:background="@color/seviye3Button"
+        android:text="R"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gonder_1_1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="17dp"
+        android:background="@color/seviye3Button"
+        android:text="İ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:background="@color/seviye3Button"
+        android:text="A"
+        app:layout_constraintEnd_toStartOf="@+id/gonder_1_1"
+        app:layout_constraintTop_toBottomOf="@+id/seviye_1_text" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="139dp"
+        android:background="@color/seviye3Button"
+        android:text="E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/gonder_1_1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="211dp"
+        android:background="@color/seviye3Button"
+        android:text="GÖNDER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/karistir_1_1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="404dp"
+        android:background="@color/seviye3Button"
+        android:text="KARIŞTIR"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_derbi_E"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_badire_D" />
+
+    <TextView
+        android:id="@+id/text_derbi_B"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_derbi_R" />
+
+    <TextView
+        android:id="@+id/text_darbe_D"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="175dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/geri" />
+
+    <TextView
+        android:id="@+id/text_deri_E"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_darbe_D" />
+
+    <TextView
+        android:id="@+id/text_deri_R"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_deri_E" />
+
+    <TextView
+        android:id="@+id/text_deri_I"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_deri_R" />
+
+    <TextView
+        android:id="@+id/text_debi_D"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text_darbe_A"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="59dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_darbe_D"
+        app:layout_constraintTop_toBottomOf="@+id/text_badire_B" />
+
+    <TextView
+        android:id="@+id/text_badire_R"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_badire_I"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text_debi_I"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_derbi_R"
+        app:layout_constraintTop_toBottomOf="@+id/text_debi_B" />
+
+    <TextView
+        android:id="@+id/text_irade_R"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="178dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_debi_I"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_irade_A"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="178dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_irade_R"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_irade_D"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="155dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_irade_A"
+        app:layout_constraintTop_toBottomOf="@+id/kronometre" />
+
+    <TextView
+        android:id="@+id/text_irade_E"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="155dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_irade_D"
+        app:layout_constraintTop_toBottomOf="@+id/kronometre" />
+
+    <TextView
+        android:id="@+id/text_darbe_R"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="59dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_darbe_A"
+        app:layout_constraintTop_toBottomOf="@+id/text_badire_A" />
+
+    <TextView
+        android:id="@+id/text_darbe_E"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="59dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_derbi_B"
+        app:layout_constraintTop_toBottomOf="@+id/text_badire_I" />
+
+    <TextView
+        android:id="@+id/text_badire_I"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_badire_D"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text_badire_D"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_badire_A"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text_debi_B"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_badire_E" />
+
+    <TextView
+        android:id="@+id/text_badire_A"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_badire_B"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text_derbi_R"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_derbi_E" />
+
+    <TextView
+        android:id="@+id/text_badire_E"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_badire_R"
+        app:layout_constraintTop_toBottomOf="@+id/text_debi_D" />
+
+    <TextView
+        android:id="@+id/text_badire_B"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="119dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_derbi_I"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginRight="229dp"
+        android:background="@color/seviye3Button"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_derbi_B" />
+
+    <Button
+        android:id="@+id/geri"
+        android:layout_width="69dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginRight="324dp"
+        android:layout_marginBottom="625dp"
+        android:background="@color/seviye3Button"
+        android:text="GERİ"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/seviye3Button"
+        android:text="SEVİYE_3_6"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

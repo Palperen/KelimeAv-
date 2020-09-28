@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.palperen.yazlab_2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".seviye_3.Seviye_3_6_Activity"></activity>
+        <activity android:name=".seviye_3.Seviye_3_5_Activity" />
+        <activity android:name=".seviye_3.Seviye_3_4_Activity" />
+        <activity android:name=".seviye_3.Seviye_3_3_Activity" />
+        <activity android:name=".seviye_3.Seviye_3_2_Activity" />
+        <activity android:name=".seviye_3.Seviye_3_1_Activity" />
+        <activity android:name=".seviye_2.Seviye_2_6_Activity" />
+        <activity android:name=".seviye_2.Seviye_2_5_Activity" />
+        <activity android:name=".seviye_2.Seviye_2_4_Activity" />
+        <activity android:name=".seviye_2.Seviye_2_3_Activity" />
+        <activity android:name=".seviye_2.Seviye_2_2_Activity" />
+        <activity android:name=".seviye_2.Seviye_2_1_Activity" />
+        <activity android:name=".seviye_1.Seviye_1_6_Activity" />
+        <activity android:name=".seviye_1.Seviye_1_5_Activity" />
+        <activity android:name=".seviye_1.Seviye_1_4_Activity" />
+        <activity android:name=".seviye_1.Seviye_1_3_Activity" />
+        <activity android:name=".seviye_1.Seviye_1_2_Activity" />
+        <activity android:name=".seviye_1.Seviye_1_1_Activity" />
+        <activity android:name=".Siralama_Activity" />
+        <activity android:name=".Kayit_Ekrani_Activity" />
+        <activity android:name=".Giris_Ekrani_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

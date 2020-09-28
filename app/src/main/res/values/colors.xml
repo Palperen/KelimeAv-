@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGiris">#092E53</color>
+    <color name="colorKayit">#092406</color>
+    <color name="colorSiralama">#47211B</color>
+    <color name="seviye1">#098092</color>
+    <color name="seviye1Button">#3144B3</color>
+    <color name="seviye2">#B18702</color>
+    <color name="seviye2Button">#804D02</color>
+    <color name="seviye3">#026B07</color>
+    <color name="seviye3Button">#274701</color>
+    <color name="black">#000000</color>
+</resources>
